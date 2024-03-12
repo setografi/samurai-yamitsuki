@@ -1,0 +1,24 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #c62726;
+}
+
+/*=============== SCROLLBAR CUSTOM ===============*/
+
+::-webkit-scrollbar {
+  width: 0.5rem;
+  background-color: #020b13;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #c62726;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #fd110f;
+}
