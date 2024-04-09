@@ -11,37 +11,41 @@ function ParallexEvent() {
   return (
     <>
       <div>
-        <img className="w-full h-[59.9rem] z-10" src={Layer1} alt="" />
+        <img
+          className="w-full h-screen lg:h-[59.9rem] object-cover lg:object-none z-10"
+          src={Layer1}
+          alt=""
+        />
         <div>
-          <div className="absolute top-32 left-0 z-20 mix-blend-exclusion">
+          <div className="absolute top-7 lg:top-32 left-0 z-20 mix-blend-exclusion">
             <img className="" src={TextImage} alt="" />
           </div>
           <img
-            className="absolute top-0 left-0 w-full h-[59.9rem] z-30"
+            className="absolute top-0 left-0 w-full h-screen lg:h-[59.9rem] object-cover lg:object-none z-30"
             src={Layer2}
             alt=""
           />
           <div>
             <img
-              className="absolute top-0 left-0 w-full h-[59.9rem] z-40"
+              className="absolute top-0 left-0 w-full h-screen lg:h-[59.9rem] object-cover lg:object-none z-40"
               src={Layer3}
               alt=""
             />
             <div>
               <img
-                className="absolute top-0 left-0 w-full h-[59.9rem] z-50"
+                className="absolute top-0 left-0 w-full h-screen lg:h-[59.9rem] object-cover lg:object-none z-50"
                 src={Layer4}
                 alt=""
               />
               <div>
                 <img
-                  className="absolute top-0 left-0 w-full h-[59.9rem] z-[60]"
+                  className="absolute top-0 left-0 w-full h-screen lg:h-[59.9rem] object-cover lg:object-none z-[60]"
                   src={Layer5}
                   alt=""
                 />
                 <div>
                   <img
-                    className="absolute top-0 left-0 w-full h-[59.9rem] z-[70]"
+                    className="absolute top-0 left-0 w-full h-screen lg:h-[59.9rem] object-cover lg:object-none z-[70]"
                     src={Layer6}
                     alt=""
                   />

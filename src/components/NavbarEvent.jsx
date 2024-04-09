@@ -8,7 +8,7 @@ function NavbarEvent() {
   return (
     <>
       <nav>
-        <ul className="absolute top-[68%] right-0 flex flex-col justify-center items-end mr-8 gap-4 z-[70]">
+        <ul className="absolute top-[68%] right-0 hidden lg:flex flex-col justify-center items-end mr-8 gap-4 z-[70]">
           <li className="relative flex flex-row items-center gap-4">
             <img src={HomeText} alt="" />
             <img src={EllipseStar} alt="" />
