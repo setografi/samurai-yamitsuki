@@ -1,15 +1,15 @@
 import React from "react";
-import Layer1 from "../assets/SUN.png";
-import Layer2 from "../assets/PX4.png";
-import Layer3 from "../assets/PX3.png";
-import Layer4 from "../assets/PX2.png";
-import Layer5 from "../assets/PX1.png";
-import Layer6 from "../assets/Samurai.png";
-import TextImage from "../assets/Yamitsuki.svg";
+import Layer1 from "../../assets/layer-1.png";
+import Layer2 from "../../assets/layer-2.svg";
+import Layer3 from "../../assets/layer-3.svg";
+import Layer4 from "../../assets/layer-4.svg";
+import Layer5 from "../../assets/layer-5.svg";
+import Layer6 from "../../assets/layer-6.png";
+import TextImage from "../../assets/Yamitsuki.svg";
 
-function ParallexEvent() {
+function Background() {
   return (
-    <>
+    <div>
       <div>
         <img
           className="w-full h-screen lg:h-[59.9rem] object-cover lg:object-none z-10"
@@ -55,8 +55,8 @@ function ParallexEvent() {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 }
 
-export default ParallexEvent;
+export default Background;

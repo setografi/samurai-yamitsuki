@@ -1,16 +1,15 @@
 import React from "react";
-import NavbarEvent from "../components/NavbarEvent";
-import ParallexEvent from "../components/ParallexEvent";
-import MusicPlayer from "../components/MusicPlayer";
-import TextLeft from "../components/TextLeft";
+
+import Background from "../components/layout/Background";
+import HeroSection from "../components/HeroSection";
+import Footer from "../components/layout/Footer";
 
 function HomePage() {
   return (
     <>
-      <NavbarEvent />
-      <ParallexEvent />
-      <MusicPlayer />
-      <TextLeft />
+      <Background />
+      <HeroSection />
+      <Footer />
     </>
   );
 }

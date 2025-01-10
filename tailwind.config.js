@@ -4,12 +4,23 @@ export default {
   theme: {
     extend: {
       colors: {
+        primary: "#C62726",
+        secondary: "#C3C2C2",
         DarkCoral: "#C62726",
-        DarkMidnightBlue: "#020B13",
+        bgBlack: "#020B13",
+        bgNavy: "#000F1C",
       },
 
       fontFamily: {
-        montserrat: ["Montserrat", "sans-serif"],
+        inter: ["Inter", "serif"],
+        oswald: ["Oswald", "serif"],
+      },
+      letterSpacing: {
+        two: "2px",
+      },
+      animation: {
+        "spin-slow": "spin 3s linear infinite",
+        rotate: "rotate 2s linear infinite",
       },
     },
   },
